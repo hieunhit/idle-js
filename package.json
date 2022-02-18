@@ -34,31 +34,29 @@
   "files": [
     "/dist"
   ],
-  "dependencies": {
-    "@babel/polyfill": "^7.2.5"
-  },
   "browserslist": "> 0.25%, not dead",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.3.1",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
     "@babel/register": "^7.0.0",
     "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.5",
     "babel-plugin-transform-object-assign": "^6.3.13",
+    "core-js": "^3.20.0",
     "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-babel": "^8.0.0-beta.2",
-    "gulp-eslint": "^5.0.0",
+    "gulp-eslint": "^6.0.0",
     "gulp-filter": "^5.1.0",
-    "gulp-load-plugins": "^1.5.0",
+    "gulp-load-plugins": "^2.0.7",
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^1.5.1",
+    "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
-    "webpack": "^4.29.2",
-    "webpack-cli": "^3.2.3",
-    "webpack-stream": "^5.2.1"
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-stream": "^7.0.0"
   },
   "babelBoilerplateOptions": {
     "entryFileName": "index.js",
