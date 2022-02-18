@@ -1,6 +1,6 @@
 {
-  "name": "idle-js",
-  "version": "1.2.1",
+  "name": "@hieunhit/idle-js",
+  "version": "1.2.2",
   "description": "Detect user idleness",
   "main": "dist/Idle.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/soixantecircuits/idle-js"
+    "url": "git+https://github.com/soixantecircuits/idle-js.git"
   },
   "keywords": [
     "idle",
@@ -37,10 +37,11 @@
   "browserslist": "> 0.25%, not dead",
   "devDependencies": {
     "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.5.5",
-    "babel-loader": "^8.0.6",
     "@babel/register": "^7.0.0",
     "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
     "babel-plugin-transform-object-assign": "^6.3.13",
     "core-js": "^3.20.0",
     "del": "^3.0.0",
@@ -61,5 +62,9 @@
   "babelBoilerplateOptions": {
     "entryFileName": "index.js",
     "mainVarName": "IdleJs"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {}
 }

@@ -1,9 +1,10 @@
 {
+  "sourceType": "unambiguous",
   "presets": [
     ["@babel/preset-env", {
       "useBuiltIns": "usage",
       "corejs": 3
     }]
   ],
-  "plugins": ["transform-object-assign"]
+  "plugins": ["@babel/plugin-transform-runtime"]
 }
